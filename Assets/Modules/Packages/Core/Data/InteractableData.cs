@@ -11,6 +11,6 @@ namespace Packages.Core.Data
 
         public AudioClip interactionSound;
         public Sprite icon;
-        public GameObject itemToGivePrefab; // Optional: spawn this on interaction
+        public GameObject itemToGivePrefab; 
     }
 }

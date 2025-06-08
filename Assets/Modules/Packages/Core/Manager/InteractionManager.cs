@@ -16,7 +16,6 @@ namespace Packages.Core.Managers
         {
             if (Input.GetKeyDown(interactionKey) && nearbyInteractables.Count > 0)
             {
-                // Prioritize the last one entered or sort by distance if needed
                 nearbyInteractables[^1].Interact();
             }
         }
